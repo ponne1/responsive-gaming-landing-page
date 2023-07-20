@@ -8,7 +8,8 @@
     .nav-info,
     .banner-container,
     .mid-banner-container,
-    .online-game-container {
+    .online-game-container,
+    .download-main-container {
         flex-direction: column;
     }
 
@@ -20,7 +21,7 @@
     .banner-container {
         flex-direction: column-reverse;
         align-items: center;
-        background-size: 400px 400px;
+        background-size: 200px 200px;
         background-position: bottom;
         padding-left: 40px;
     }
@@ -61,7 +62,8 @@
     .online-game-main h2,
     .banner-info h3,
     .mid-banner-info h2,
-    .mid-banner-info h6 {
+    .mid-banner-info h6,
+    .download-install h2 {
         font-size: 1.5rem;
     }
 
@@ -70,8 +72,21 @@
     .btn-sign,
     .btn-go,
     .mid-banner-info p,
-    .mid-banner-btn {
+    .mid-banner-btn,
+    .download-install p {
         font-size: 0.8rem;
+    }
+
+    .download-img img {
+        width: 300px;
+    }
+
+    .download-img div>img {
+        width: 100px;
+    }
+
+    .download-install {
+        text-align: center;
     }
 }
 
@@ -82,7 +97,8 @@
     .nav-main-container,
     .nav-info,
     .mid-banner-container,
-    .online-game-container {
+    .online-game-container,
+    .download-main-container {
         flex-direction: column;
     }
 
@@ -95,15 +111,22 @@
     .banner-img img {
         height: 600px;
     }
+
     .mid-banner-container {
         padding: 0;
         align-items: center;
         background: white;
     }
+
     .mid-banner-info {
         text-align: center;
     }
-    .online-game-main h2{
+
+    .online-game-main h2 {
         font-size: 2rem;
+    }
+
+    .download-install {
+        text-align: center;
     }
 }

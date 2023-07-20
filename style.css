@@ -169,19 +169,12 @@ a {
 
 /* online game container  */
 
-.online-game-main {
-    border: 2px solid red;
-    background-color: #4EC5F7;
-}
-
 .online-game-tittle {
-    border: 1px solid red;
     text-align: center;
     margin-top: 120px;
 }
 
 .online-game-container {
-    border: 1px solid blue;
     display: flex;
     justify-content: space-evenly;
     gap: 24px;
@@ -213,30 +206,46 @@ a {
 
 /* download and install seection  */
 
-.play-instantly-container {
-    border: 2px solid red;
-}
-
 .download-main-container {
     border: 1px solid rgb(4, 0, 255);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    gap: 150px;
+    margin-top: 120px;
 }
 
 .download-install {
     border: 2px solid blue;
     text-align: right;
-    
+    width: 400px;
+
 }
 
 .download-install h2 {
     color: #0B0223;
     font-size: 3rem;
     font-weight: 700;
+    padding-bottom: 24px;
 }
 
 .download-install p {
     color: #534C64;
     font-size: 1.125rem;
+}
+
+.download-install h2>span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.download-img div > img{
+    position: relative;
+    bottom: 300px;
+    right: 150px;
+    border: 1px solid red;
+}
+.download-img{
+    border: 2px solid red;
 }
