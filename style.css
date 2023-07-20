@@ -51,41 +51,35 @@ a {
     justify-content: space-around;
     gap: 32px;
     align-items: center;
-    border: 1px solid red;
 }
 
 .nav-follow {
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    border: 1px solid red;
     padding: 17px 24px;
 }
 
 /* banner section start */
 
-.banner-main-container {
+.banner-container {
     display: flex;
-    justify-content: space-around;
-    gap: 68px;
-    margin-right: 240px;
-    height: 700px;
-}
-
-.banner-button-container {
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+    background: #FFF;
     background-image: url("images/Group\ 14.png");
     background-repeat: no-repeat;
-    width: 901px;
-    height: 700px;
-    padding: 148px 306px 0 240px;
+    background-position: left;
 }
 
-.banner-button-container h3 {
+
+.banner-info h3 {
     color: #0B0223;
     font-size: 3rem;
     font-weight: 600;
 }
 
-.banner-button-container h1 {
+.banner-info h2 {
     font-size: 5.9375rem;
     font-weight: 800;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -94,77 +88,31 @@ a {
     -webkit-text-fill-color: transparent;
 }
 
-.banner-button-container p {
+.primary-description {
     color: #534C64;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     font-weight: 500;
 }
 
-.banner-des-click {
-    padding-top: 24px;
-    padding-bottom: 17px;
+.banner-info p {
+    padding-top: 20px;
 }
-
-.banner-des-support {
-    padding-top: 17px;
-    padding-bottom: 40px;
+.banner-btn{
+    padding-top: 30px;
 }
-
-.banner-btn {
-    display: flex;
-    gap: 21px;
-}
-
-.banner-btn-sign {
+.btn-sign {
     border-radius: 48px;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     padding: 21px 40px;
     color: #FFF;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     font-weight: 600;
 }
-
-.banner-btn-go {
+.btn-go{
     border-radius: 48px;
     background: #4EC5F7;
     padding: 21px 40px;
     color: #FFF;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     font-weight: 600;
-}
-
-/* media section */
-
-/* mobile version */
-
-@media screen and (max-width: 576px) {
-
-    .nav-main-container,
-    .nav-info {
-        flex-direction: column;
-    }
-
-    .nav-info {
-        width: 300px;
-        align-items: center;
-
-    }
-
-    .banner-main-container {
-        flex-direction: column-reverse;
-    }
-    .banner-img img {
-        height: 300px;
-    }
-
-}
-
-/* tablet version */
-
-@media screen and (min-width:576px) and (max-width:992px) {
-
-    .nav-main-container,
-    .nav-info {
-        flex-direction: column;
-    }
 }
