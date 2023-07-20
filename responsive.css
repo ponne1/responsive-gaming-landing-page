@@ -7,7 +7,8 @@
     .nav-main-container,
     .nav-info,
     .banner-container,
-    .mid-banner-container {
+    .mid-banner-container,
+    .online-game-container {
         flex-direction: column;
     }
 
@@ -24,8 +25,16 @@
         padding-left: 40px;
     }
 
+    .banner-info {
+        margin-bottom: 20px;
+    }
+
     .banner-img img {
         height: 350px;
+    }
+
+    .banner-info h2 {
+        font-size: 3rem;
     }
 
     .mid-banner-container {
@@ -41,6 +50,29 @@
     .mid-banner-img img {
         height: 200px;
     }
+
+    .online-game-container {
+        align-items: center;
+        margin: auto;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .online-game-main h2,
+    .banner-info h3,
+    .mid-banner-info h2,
+    .mid-banner-info h6 {
+        font-size: 1.5rem;
+    }
+
+    .online-game-main p,
+    .primary-description,
+    .btn-sign,
+    .btn-go,
+    .mid-banner-info p,
+    .mid-banner-btn {
+        font-size: 0.8rem;
+    }
 }
 
 /* tablet version */
@@ -48,7 +80,9 @@
 @media screen and (min-width:576px) and (max-width:992px) {
 
     .nav-main-container,
-    .nav-info {
+    .nav-info,
+    .mid-banner-container,
+    .online-game-container {
         flex-direction: column;
     }
 
@@ -60,5 +94,16 @@
 
     .banner-img img {
         height: 600px;
+    }
+    .mid-banner-container {
+        padding: 0;
+        align-items: center;
+        background: white;
+    }
+    .mid-banner-info {
+        text-align: center;
+    }
+    .online-game-main h2{
+        font-size: 2rem;
     }
 }
