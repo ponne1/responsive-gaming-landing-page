@@ -6,7 +6,8 @@
 
     .nav-main-container,
     .nav-info,
-    .banner-container {
+    .banner-container,
+    .mid-banner-container {
         flex-direction: column;
     }
 
@@ -22,10 +23,24 @@
         background-position: bottom;
         padding-left: 40px;
     }
-    .banner-img img{
+
+    .banner-img img {
         height: 350px;
     }
 
+    .mid-banner-container {
+        padding: 0;
+        align-items: center;
+        background: white;
+    }
+
+    .mid-banner-info {
+        text-align: center;
+    }
+
+    .mid-banner-img img {
+        height: 200px;
+    }
 }
 
 /* tablet version */
@@ -36,12 +51,14 @@
     .nav-info {
         flex-direction: column;
     }
+
     .banner-container {
         flex-direction: column-reverse;
         background-size: auto 500px;
         background-position: bottom;
     }
-    .banner-img img{
+
+    .banner-img img {
         height: 600px;
     }
 }

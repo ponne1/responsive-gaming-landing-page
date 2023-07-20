@@ -97,9 +97,11 @@ a {
 .banner-info p {
     padding-top: 20px;
 }
-.banner-btn{
+
+.banner-btn {
     padding-top: 30px;
 }
+
 .btn-sign {
     border-radius: 48px;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
@@ -108,7 +110,8 @@ a {
     font-size: 1.25rem;
     font-weight: 600;
 }
-.btn-go{
+
+.btn-go {
     border-radius: 48px;
     background: #4EC5F7;
     padding: 21px 40px;
@@ -116,3 +119,50 @@ a {
     font-size: 1.25rem;
     font-weight: 600;
 }
+
+/* mid banner  */
+.mid-banner-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 240px;
+    padding-right: 240px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.mid-banner-info {
+    text-align: right;
+}
+
+.mid-banner-info h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mid-banner-info p {
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 400;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.mid-banner-btn {
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    padding: 21px 40px;
+}
+.mid-banner-info h6 {
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-top: 24px;
+}
+
